@@ -1,2 +1,2 @@
 # Ansible_tutorial
-My homework by Ansible
+<p style="text-align: center;">My homework by Ansible</p>
