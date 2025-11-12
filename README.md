@@ -1,7 +1,7 @@
 # Ansible_tutorial
 <p style="text-align: center;">My homework by Ansible</p>
 
-## Создание ssh-соединения между клиентом и сервером
+1. ## Создание ssh-соединения между клиентом и сервером
 ### Генерируем ssh-ключ на клиенте
     ssh-keygen -t ed25519 -C "ansible"
 
@@ -16,6 +16,11 @@
 ### Подключаемся к удаленному серверу
     ssh -i ~/.ssh/ansible -p 2022 adalbera@10.0.2.15
 
+2. ## Установка Ansible
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install ansible
 
-
+3. ## Создаем файл со списком серверов, которыми будем управлять
+    nano inventory
   
